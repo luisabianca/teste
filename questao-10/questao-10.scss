@@ -1,0 +1,72 @@
+.card-user {
+    max-width: 500px;
+    font-family: Arial, sans-serif;
+    border: 1px solid rgb(172, 172, 172); 
+    
+    &__header {
+        background-color: rgb(236, 235, 235);
+        padding: 10px 26px;
+        .title {
+            font-weight: bold;
+            font-size: 30px;
+            margin: 0;
+        }
+    } 
+    &__body {
+        background-color: rgb(204, 204, 204);
+        font-size: 13px;
+        font-weight: bold;
+        display: flex;
+        align-items: center;
+        padding: 14px 26px;
+        flex-wrap: wrap;
+        @media screen and (max-width: 768px) {
+            display: block;
+        }
+        form {
+            flex: 1;
+            .form-field {
+                margin-bottom: 8px;
+                label {
+                    display: block;
+                    margin-bottom: 4px;
+                }
+                input {
+                    border-radius: 4px;
+                    width: 100%;
+                }
+            }
+        }
+        .photo {
+            min-width: 156px;
+            text-align: center;
+            &__footer,
+            &__header {
+                padding: 4px;
+                p {
+                    margin: 0;
+                    padding: 0;
+                }
+                button {
+                    border: none;
+                    background: none;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    &__footer {
+        padding-top: 15px;
+        text-align: center;
+        button {
+            background: rgb(81, 81, 247);
+            width: 115px;
+            color: rgb(240, 231, 231);
+            border-radius: 4px;
+            border: none;
+            height: 25px;
+            transform: translateY(8px);
+        }
+    }
+}

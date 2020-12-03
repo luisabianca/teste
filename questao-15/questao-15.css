@@ -1,0 +1,30 @@
+.container {
+  background-color: #d4d4d4;
+  display: flex;
+  width: 440px;
+  padding-bottom: 30px;
+}
+
+.navbar {
+  margin-top: 45px;
+  margin-left: -30px;
+}
+.navbar a {
+  text-decoration: none;
+  color: blue;
+}
+.navbar li {
+  margin-bottom: 7px;
+  width: 100px;
+  background-color: white;
+  list-style: none;
+  border-right: 10px solid black;
+  padding: 3px;
+}
+
+.conteudo-principal {
+  margin-left: 20px;
+  width: 100%;
+}
+
+/*# sourceMappingURL=questao-15.css.map */
